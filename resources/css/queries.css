@@ -1,0 +1,327 @@
+/* large tablets to 1200xp : from 1024px to  1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { 
+        padding: 0 2%; 
+    }
+
+    .name_header {
+        float: left;
+        line-height: 4.5;
+        font-size: 60%;   
+        
+    }
+    .skills_list {
+        margin-bottom: 30px !important;
+    } 
+    .alert {
+        font-size: 75%;
+    }
+
+    /* .about_me_img {
+        height: 260px;
+        margin: 10% auto;
+    }  */
+}
+
+/* small tab to large tablets : from 768px to  1023px */
+@media only screen and (max-width: 1023px) {
+    body {font-size: 13px;}
+    section {padding-top: 60px;}
+    .name_header {
+        line-height: 7.5;
+        font-size: 60%;  
+        
+    }
+
+    .about_me_img {
+        height: 260px;
+        margin: 10% auto;
+    } 
+
+    /* ---------------------------------------chat bot project ---------------------------------- */
+    .project_chatbot_div1 p, .project_chatbot_div2 p, .project_chatbot_div3 p {
+        font-size: 115%;
+    }
+}
+
+/* small phones to small tablets : from 481px to  767px */
+@media only screen and (max-width: 767px) {
+    
+    header {
+        height: 75vh;
+    }
+
+    .hero-text-box { 
+        top: 40%;
+        text-align: center;
+    }
+
+    .long_text {
+        line-height: 18px;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 110%;
+    }
+
+    .about_me_description {
+        line-height: 23px !important;
+        font-size: 100% !important;
+    }
+    .hero_image {
+        width: 100%;
+    }
+
+    .sticky { 
+        position: fixed;
+    }
+
+    .name_header {
+        line-height: 2;
+        font-size: 60%;  
+        width: 10%;
+        margin-top: 17px;
+    }
+
+    .sticky .name_header {
+        margin-top: 7px;
+    }
+    
+    .col{
+        width: 100% !important;
+    }
+    .main-nav li {
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+
+    .main-nav li a:link, 
+    .main-nav li a:visited {
+        font-size: 70%;
+        display: block;
+        border: 0;
+        margin-top: 10px;
+    }
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        margin-top: 9px;
+        float: left;
+    }
+
+    .main-nav li {
+        margin-top: 10px;
+        display: block;
+    } 
+  
+    /* .sticky {
+        display: none;
+    }
+
+    /* -----------about me----------------- */
+    #aboutme row_aboutme_devices col {
+        width: 100% !important;
+    }
+
+    .about_me_img {
+        height: 225px;
+        display: flex;
+        margin: auto;
+    }
+
+    .city-image {
+        width: 40%;
+        margin: auto 35%;
+    } 
+
+    .users {
+        width: 60%;
+    }
+
+    .project_image {
+        width:80%;
+        margin-left : 10%;
+    }
+
+    h2 {
+        font-size: 160%;
+        letter-spacing: 2px;
+    }
+
+    .project_number {
+        height: 50px;
+        width: 50px;
+        margin-top: 0;
+    }
+    
+    .project_content {
+        text-align: center;
+        line-height: 22px !important;
+        font-size: 95% !important;
+    } 
+
+    .skill_content_col1 {
+        width: 50% !important;
+    }
+
+    .plan-box ul {
+        font-size: 100% !important;
+    }
+
+    .cert_col {
+        margin-top: 5% !important;
+        margin-left: 0px !important;
+    }
+
+    .contactme_form label{
+        margin-left: 2%;
+        font-size: 100%;
+    }
+
+    .skills_list {
+        margin-bottom: 30px !important;
+    } 
+    .plan-box div p {
+        font-size: 125%;
+    }
+
+    .contactme_form {
+        margin-left: 8%;
+    }
+
+    .phone_view {
+        display: block;
+    } 
+
+    .desktop_view {
+        display: none;
+    }
+
+    h1 {
+        font-size: 200% !important;
+        font-weight: bold !important;
+    }
+
+    .short_text {
+        margin-bottom: 6%;
+    }
+
+    .welcome_statement,
+    .heroname  {
+        margin-bottom: 3%;
+    }
+
+    .contact_row {
+        margin-bottom: 5%;
+    }
+
+    .alert {  
+        width: 88%;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-size: 125%;
+        text-align: center;
+        margin-left: 2%;
+        margin-top: 2%;
+      }
+
+      .contact_info {
+          margin-left: 0px
+      }
+
+      /* --------------------------------- chat bot project ------------------------------------- */
+      .project_chatbot_div1  {
+        width: 80%;
+      }
+      .project_chatbot_div1 h5, .project_chatbot_div2 h5, .project_chatbot_div3 h5 {
+          text-align: center;
+      }
+
+      .project_chatbot_div2 {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 7%;
+
+      }
+      .project_chatbot_div1 p, .project_chatbot_div2 p, .project_chatbot_div3 p {
+          text-align: justify;
+          word-spacing: 0px;
+      }
+
+      .project_chatbot_div3 h5, .project_chatbot_div3 p, .project_chatbot_div3 h6 {
+        width: 80%;
+      }
+
+      .project_chatbot_div2 h6, .project_chatbot_div3 h6 {
+        font-size: 90%;
+      }
+
+      .btn:link, .btn:visited, input[type=submit] {
+          padding: 8px 15px;
+          background-color: #FAA61A;
+          color: #fff !important;   
+      }
+
+      .color_pallet p {
+          text-align: center;
+          font-size: 110%;
+      }
+      .row_color {
+        display: flex;
+        float: left;
+        width: 100%;
+        margin-bottom: 2%;
+      }
+
+      .color_block {
+        height: 35px;
+        width: 55px;
+      } 
+      .botlogos {
+        display: flex;
+        margin-top: 9%;
+        margin-bottom: 9%;
+      }
+
+      .botlogo {
+          height: 150px;
+      }
+
+      .botlogos p {
+          text-align: center;
+          font-size: 110%;
+      }
+
+      .screens_heading{
+          padding-left: 10%;
+      }
+}
+
+/* small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .about_me_img {
+        margin: 0;
+    }
+
+    .project_image {
+        width:300px
+    }
+
+      /* ---------------------------------------chat bot project ---------------------------------- */
+      .project_chatbot_div1 p, .project_chatbot_div2 p, .project_chatbot_div3 p {
+          line-height: 25px;
+      }
+
+      .row_color {
+        margin-bottom: 5%;
+      }
+}
